@@ -1,0 +1,17 @@
+<div class="row">
+
+
+
+  <div class="form-group">
+    <label for="comment">Comment:</label>
+    <textarea class="form-control" rows="5" #txt></textarea>
+  </div>
+
+  <div class="col-md-8 text-center">
+    <button type="button" class="btn btn-primary" (click)="btnUpcase(txt.value)">UpperCaser</button>
+  </div>
+</div>
+
+<div class="row">
+  <h3>{{str}}</h3>
+</div>
